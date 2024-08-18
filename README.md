@@ -13,7 +13,7 @@ Example
 To send a GET request through the worker:
 
 bash
-``curl -X GET "https://<your-worker-url>/?url=https://example.com"``
+**curl -X GET "https://<your-worker-url>/?url=https://example.com"**
 To send a POST request through the worker:
 
 bash
