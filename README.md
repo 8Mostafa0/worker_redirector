@@ -13,11 +13,11 @@ Example
 To send a GET request through the worker:
 
 bash
-```curl -X GET "https://<your-worker-url>/?url=https://example.com"
+``curl -X GET "https://<your-worker-url>/?url=https://example.com"``
 To send a POST request through the worker:
 
 bash
-```curl -X POST "https://<your-worker-url>/?url=https://example.com" -d '{"key":"value"}' -H "Content-Type: application/json"
+``curl -X POST "https://<your-worker-url>/?url=https://example.com" -d '{"key":"value"}' -H "Content-Type: application/json"``
 
 Notes
 The URL to be requested must be passed as a query parameter named url.
