@@ -12,12 +12,14 @@ Receive the Response: The worker will fetch the response from the provided URL a
 Example
 To send a GET request through the worker:
 
-bash
-**curl -X GET "https://<your-worker-url>/?url=https://example.com"**
+```bash
+curl -X GET "https://<your-worker-url>/?url=https://example.com"
+```
 To send a POST request through the worker:
 
-bash
-``curl -X POST "https://<your-worker-url>/?url=https://example.com" -d '{"key":"value"}' -H "Content-Type: application/json"``
+```bash
+curl -X POST "https://<your-worker-url>/?url=https://example.com" -d '{"key":"value"}' -H "Content-Type: application/json"
+```
 
 Notes
 The URL to be requested must be passed as a query parameter named url.
